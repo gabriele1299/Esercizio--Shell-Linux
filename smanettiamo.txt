@@ -1,0 +1,18 @@
+    PID (Process ID): Il PID è un numero univoco assegnato a ogni processo in esecuzione su un sistema operativo. Ogni processo ha il suo PID, che è utilizzato per identificarlo in modo univoco all'interno del sistema. I PID sono numeri interi positivi e vengono assegnati in modo sequenziale 
+
+    User: Questo campo indica l'utente che ha avviato il processo. mostrare .
+
+    Command: Questo campo indica il comando o il nome del programma associato al processo.
+
+
+
+come vediamo nelle immagini allegati ho usato il comando top con grep per configuare i programmi attivi filtrandoli per lutente kali ho usato il comando grep 'kali'
+
+successivamnete mi sono spostato sul desktop utilizando il comando cd (change directory) dino ad arrivare al desktop e con il comando mkdir (makedirectory) ho creato la cartella richiesta e il file .txt
+
+ho modificato con il comando nano la cartella scrivendoci del testo all'interno
+dopo aver letto i permessi con ls -la ho modificato i permessi come richiesto con il comando chmod.  
+
+ora ho cretao un nuovo utente dove come visto nelle foto sono andato atoglierli i permessi di lettura, successivamente provando a aprie il file con il comando nano si puo vedere che lutente non avra i permessi di lettura come è stato chiesto da esecizio 
+gli ultimi passaggi sono stati spostasre il file nella directory root 
+infie ho eliminato la cartella del progetto e lutente creato per lesercitazione
